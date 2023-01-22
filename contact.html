@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h2>Contact Details</h2>
+    <table border="1">
+        <tr>
+            <td>Email Eddress</td>
+            <td>deepakgupta11235@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td>83608xxxxx</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <form action="index.html" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Drop a Message</legend>
+            <p>
+                <label for="">Name</label>
+                <input type="text" name="Name" id="Name" required>
+            </p>
+    
+            <p><label for="">Email <input type="email" name="Email" required></label></p>
+            <p><label for="message">Your message <br><textarea id="message" name="message" rows="6" cols="20" required></textarea></label></p>
+            
+            <input type="submit" value="Send">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
